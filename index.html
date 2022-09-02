@@ -10,5 +10,67 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Find meals for your ingredients</h2>
+          <div class="meal-search-box">
+            <!-- <form action="" id="userInput"> -->
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter an ingredient"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+            <!-- </form> -->
+          </div>
+        </div>
+        <div class="meal-result">
+          <h2 class="title">Your search results:</h2>
+          <div id="meal">
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img src="./Images/wings.jpg" alt="food" />
+              </div>
+              <div class="meal-name">
+                <h3>Chicken wings</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="meal-details">
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+          <!-- meal content -->
+          <div class="meal-details-content">
+            <!-- <h2 class="recipe-title">Meals name here</h2>
+              <p class="recipe-category">Category Name</p>
+              <div class="recipe-instruct">
+                <h3>Instructions:</h3>
+                <p>This recipe is awesome</p>
+                <p>This recipe is amazing</p>
+              </div>
+              <div class="recipe-meal-img">
+                  <img src="./Images/wings.jpg" alt="amazing wings">
+              </div>
+              <div class="recipe-link">
+                  <a href="#" target="_blank">Watch Video</a>
+              </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./JS/index.js"></script>
 </html>
