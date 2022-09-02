@@ -1,49 +1,8 @@
-// Denisssssss fatherian
-
-// function getUserInput() {
-//     userInput = document.getElementById('search-btn');
-
-// }
-
-
-
-
-
-
-
-
-
-// // On page load
-// document.addEventListener('DOMContentLoaded', () => {
-
-
-
-
-//     getUserInput();
-//     handleUserData();
-//     createUserSearchResults();
-// })
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // somethingggg
-
-
-
 const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal');
 const mealDetailsContent = document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
+const getRecipes = document.querySelector('.recipe-btn')
 
 //event listeners
 searchBtn.addEventListener('click', getMealList);
@@ -51,6 +10,7 @@ mealList.addEventListener('click', getMealRecipe);
 recipeCloseBtn.addEventListener('click', () => {
     mealDetailsContent.parentElement.classList.remove('showRecipe');
 });
+getRecipes.addEventListener('click', )
 
 
 // get meal list that matches with the ingredients
@@ -69,7 +29,7 @@ function getMealList() {
                 </div>
                 <div class="meal-name">
                   <h3>${meal.strMeal}</h3>
-                  <a href="#" class="recipe-btn">Get Recipe</a>
+                  <a href="/" onClick={'Hello'} class="recipe-btn">Get Recipe</a>
                 </div>
               </div>
               `;
@@ -148,4 +108,3 @@ function mealRecipeModal(meal) {
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
 }
-

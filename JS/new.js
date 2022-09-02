@@ -60,6 +60,7 @@ var meal = data[0];
 var mealTitle = meal.strMeal;
 var mealVideo = meal.strYoutube;
 var mealInstructions = meal.strInstructions;
+
 // var ingredients = [];
 // var measures = [];
 
@@ -93,32 +94,70 @@ var abc = Object.keys(meal);
 let ingredients = [];
 let measures = [];
 
-abc.map((_abc) => {
+console.log(typeof abc, 'abc')
+function getRecipe() {
 
-    let currentIngredient, currentMeasure;
+    abc.map((_abc) => {
 
-    if (_abc.startsWith("strIngredient")) {
-        currentIngredient = meal[_abc];
-    } else if (_abc.startsWith("strMeasure")) {
-        currentMeasure = meal[_abc];
+        let currentIngredient;
+        let currentMeasure;
+
+        if (_abc.startsWith("strIngredient")) {
+
+            currentIngredient = meal[_abc]
+
+
+
+        } else if (_abc.startsWith("strMeasure")) {
+            currentMeasure = meal[_abc];
+
+
+        }
+
+        if (currentIngredient) {
+            ingredients.push(currentIngredient);
+            console.log(ingredients)
+
+
+        };
+        if (currentMeasure) {
+            measures.push(currentMeasure);
+
+
+
+        };
+    });
+
+
+    getData(ingredients, measures)
+};
+
+const getData = (ingredients, measures) => {
+    const obj = {};
+    ingredients.forEach((item, index) => {
+        obj[item] = measures[index]
+
+
+    })
+    for (const [key, value] of Object.entries(obj)) {
+        console.log(key, value)
     }
-
-    if (currentIngredient) {
-        ingredients.push(currentIngredient);
-    };
-    if (currentMeasure) {
-        measures.push(currentMeasure);
-    };
-});
+}
 
 
-let output = {};
 
-ingredients.map((ingredient, index) => {
-    output[ingredient] = measures[index];
-})
-console.log({ ingredients, measures, output });
 
+
+
+
+// ingredients.map((ingredient, index) => {
+//     console.log(ingredient)
+//     output[ingredient] = measures[index];
+// })
+// console.log({ ingredients, measures, output });
+
+
+getRecipe()
 
 
 
