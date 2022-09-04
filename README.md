@@ -7,9 +7,9 @@ You input an ingredient, then press the search button.
 You'll then get a list of all available meals that can be prepared using that ingredient.
 It also shows a recipe and a list of other ingredients used in that meal together with their quantities.
 
-![My Image](./Images/Screenshot%20from%202022-09-02%2013-11-42.png)
+![My Image](./Images/Screenshot1.png)
 
-![My Image](./Images/Screenshot%20from%202022-09-02%2013-11-52.png)
+![My Image](./Images/Screenshot2.png)
 
 Technologies used: *HTML *CSS \*JS
 
