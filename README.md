@@ -9,6 +9,8 @@ It also shows a recipe and a list of other ingredients used in that meal togethe
 
 ![My Image](./Images/Screenshot%20from%202022-09-02%2013-11-42.png)
 
+![My Image](./Images/Screenshot%20from%202022-09-02%2013-11-52.png)
+
 Technologies used: *HTML *CSS \*JS
 
 Setup/Installation Requirements
