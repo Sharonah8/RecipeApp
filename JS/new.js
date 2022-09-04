@@ -1,3 +1,5 @@
+
+
 var data = [
     {
         "idMeal": "52940",
@@ -94,7 +96,7 @@ var abc = Object.keys(meal);
 let ingredients = [];
 let measures = [];
 
-console.log(typeof abc, 'abc')
+// console.log(typeof abc, 'abc')
 function getRecipe() {
 
     abc.map((_abc) => {
@@ -116,7 +118,7 @@ function getRecipe() {
 
         if (currentIngredient) {
             ingredients.push(currentIngredient);
-            console.log(ingredients)
+            // console.log(ingredients)
 
 
         };
@@ -131,8 +133,10 @@ function getRecipe() {
 
     getData(ingredients, measures)
 };
+// const getData = () =>
 
-const getData = (ingredients, measures) => {
+
+function getData(ingredients, measures) {
     const obj = {};
     ingredients.forEach((item, index) => {
         obj[item] = measures[index]
@@ -142,7 +146,7 @@ const getData = (ingredients, measures) => {
     for (const [key, value] of Object.entries(obj)) {
         console.log(key, value)
     }
-}
+};
 
 
 

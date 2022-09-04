@@ -6,8 +6,8 @@
 }
 
 :root{
-    --tenne-tawny: #d65108;
-    --tenne-tawny-dark: #b54507;
+    --tenne-tawny: red;
+    --tenne-tawny-dark: #ffa500;
 }
 body{
     font-weight: 300;
