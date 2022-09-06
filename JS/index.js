@@ -184,10 +184,10 @@ var ingredients = [];
 var measures = [];
 
 var listOfKeys = Object.keys(meal);
-console.log(listOfKeys);
+// console.log(listOfKeys);
 
 var listOfValues = Object.values(meal);
-console.log(listOfValues);
+// console.log(listOfValues);
 
 function someThing(_abc) {
 
@@ -253,17 +253,17 @@ function getRecipe() {
 // // const getData = () =>
 
 
-// function getData(ingredients, measures) {
-//     const obj = {};
-//     ingredients.forEach((item, index) => {
-//         obj[item] = measures[index]
+function getData(ingredients, measures) {
+    const obj = {};
+    ingredients.forEach((item, index) => {
+        obj[item] = measures[index]
 
 
-//     })
-//     for (const [key, value] of Object.entries(obj)) {
-//         console.log(key, value)
-//     }
-// };
+    })
+    // for (const [key, value] of Object.entries(obj)) {
+    //     console.log(key, value)
+    // }
+};
 
 
 
