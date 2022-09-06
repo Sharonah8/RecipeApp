@@ -279,7 +279,7 @@ console.log({ ingredients, measures, output });
 
 
 // // getRecipe()
-// getData()
+getData()
 
 
 
