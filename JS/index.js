@@ -271,11 +271,11 @@ function getData(ingredients, measures) {
 
 
 
-// // ingredients.map((ingredient, index) => {
-// //     console.log(ingredient)
-// //     output[ingredient] = measures[index];
-// // })
-// // console.log({ ingredients, measures, output });
+ingredients.map((ingredient, index) => {
+    console.log(ingredient)
+    output[ingredient] = measures[index];
+})
+console.log({ ingredients, measures, output });
 
 
 // // getRecipe()
