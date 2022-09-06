@@ -183,11 +183,11 @@ var mealInstructions = meal.strInstructions;
 // var ingredients = [];
 // var measures = [];
 
-// // var listOfKeys = Object.keys(meal);
-// // console.log(listOfKeys);
+var listOfKeys = Object.keys(meal);
+console.log(listOfKeys);
 
-// // // var listOfValues = Object.values(meal);
-// // // console.log(listOfValues);
+var listOfValues = Object.values(meal);
+console.log(listOfValues);
 
 // // function someThing(_abc) {
 
