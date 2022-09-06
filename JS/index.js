@@ -175,13 +175,13 @@ var data = [
     }
 ];
 
-// var meal = data[0];
-// var mealTitle = meal.strMeal;
-// var mealVideo = meal.strYoutube;
-// var mealInstructions = meal.strInstructions;
+var meal = data[0];
+var mealTitle = meal.strMeal;
+var mealVideo = meal.strYoutube;
+var mealInstructions = meal.strInstructions;
 
-// // var ingredients = [];
-// // var measures = [];
+// var ingredients = [];
+// var measures = [];
 
 // // var listOfKeys = Object.keys(meal);
 // // console.log(listOfKeys);
