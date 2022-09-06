@@ -19,6 +19,10 @@ Clone this repository into the folder using the command line below,
 $git clone "https://github.com/Sharonah8/RecipeApp"
 open it on an editor (Atom,vscode,vim,sublime Text, etc.)
 contribute and push your changes to your repository
+
+Link to site https://sharonah8.github.io/RecipeApp/
+
+
 Support and contact details
 For enquiries and contribution to our project, kindly reach out through E-mail: "nyamongosharon88@gmail.com"
 
