@@ -35,7 +35,7 @@ function getMealList() {
                 <div class="meal-name">
                   <h3>${meal.strMeal}</h3>
                   <a href="/" onClick={'Hello'} class="recipe-btn">Get Recipe</a>
-                  <button type="button" class="recipe-btn">Get recipe</button>
+                 
                 </div>
               </div>
               `;
