@@ -180,8 +180,8 @@ var mealTitle = meal.strMeal;
 var mealVideo = meal.strYoutube;
 var mealInstructions = meal.strInstructions;
 
-// var ingredients = [];
-// var measures = [];
+var ingredients = [];
+var measures = [];
 
 var listOfKeys = Object.keys(meal);
 console.log(listOfKeys);
@@ -210,8 +210,8 @@ listOfKeys.map(someThing);
 console.log(ingredients);
 
 var abc = Object.keys(meal);
-let ingredients = [];
-let measures = [];
+// let ingredients = [];
+// let measures = [];
 
 // console.log(typeof abc, 'abc')
 function getRecipe() {
