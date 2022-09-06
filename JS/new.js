@@ -162,6 +162,7 @@ function getData(ingredients, measures) {
 
 
 getRecipe()
+getData()
 
 
 
