@@ -189,25 +189,25 @@ console.log(listOfKeys);
 var listOfValues = Object.values(meal);
 console.log(listOfValues);
 
-// // function someThing(_abc) {
+function someThing(_abc) {
 
 
-// //     let currentIngredient, currentMeasure;
+    let currentIngredient, currentMeasure;
 
-// //     if (_abc.startsWith("strIngredient")) {
-// //         currentIngredient = meal[_abc];
-// //     }
-// //     if (_abc.startsWith("strMeasure")) {
-// //         currentMeasure = meal[_abc];
-// //     }
+    if (_abc.startsWith("strIngredient")) {
+        currentIngredient = meal[_abc];
+    }
+    if (_abc.startsWith("strMeasure")) {
+        currentMeasure = meal[_abc];
+    }
 
-// //     if (currentIngredient) {
-// //         ingredients.push(currentIngredient);
-// //     }
-// // }
-// // listOfKeys.map(someThing);
+    if (currentIngredient) {
+        ingredients.push(currentIngredient);
+    }
+}
+listOfKeys.map(someThing);
 
-// // // console.log(ingredients);
+console.log(ingredients);
 
 // var abc = Object.keys(meal);
 // let ingredients = [];
