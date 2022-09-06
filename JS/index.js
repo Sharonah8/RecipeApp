@@ -260,9 +260,9 @@ function getData(ingredients, measures) {
 
 
     })
-    // for (const [key, value] of Object.entries(obj)) {
-    //     console.log(key, value)
-    // }
+    for (const [key, value] of Object.entries(obj)) {
+        console.log(key, value)
+    }
 };
 
 
