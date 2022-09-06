@@ -209,47 +209,47 @@ listOfKeys.map(someThing);
 
 console.log(ingredients);
 
-// var abc = Object.keys(meal);
-// let ingredients = [];
-// let measures = [];
+var abc = Object.keys(meal);
+let ingredients = [];
+let measures = [];
 
-// // console.log(typeof abc, 'abc')
-// function getRecipe() {
+// console.log(typeof abc, 'abc')
+function getRecipe() {
 
-//     abc.map((_abc) => {
+    abc.map((_abc) => {
 
-//         let currentIngredient;
-//         let currentMeasure;
+        let currentIngredient;
+        let currentMeasure;
 
-//         if (_abc.startsWith("strIngredient")) {
+        if (_abc.startsWith("strIngredient")) {
 
-//             currentIngredient = meal[_abc]
-
-
-
-//         } else if (_abc.startsWith("strMeasure")) {
-//             currentMeasure = meal[_abc];
-
-
-//         }
-
-//         if (currentIngredient) {
-//             ingredients.push(currentIngredient);
-//             // console.log(ingredients)
-
-
-//         };
-//         if (currentMeasure) {
-//             measures.push(currentMeasure);
+            currentIngredient = meal[_abc]
 
 
 
-//         };
-//     });
+        } else if (_abc.startsWith("strMeasure")) {
+            currentMeasure = meal[_abc];
 
 
-//     getData(ingredients, measures)
-// };
+        }
+
+        if (currentIngredient) {
+            ingredients.push(currentIngredient);
+            // console.log(ingredients)
+
+
+        };
+        if (currentMeasure) {
+            measures.push(currentMeasure);
+
+
+
+        };
+    });
+
+
+    getData(ingredients, measures)
+};
 // // const getData = () =>
 
 
