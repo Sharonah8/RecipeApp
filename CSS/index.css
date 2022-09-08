@@ -6,8 +6,8 @@
 }
 
 :root{
-    --tenne-tawny: red;
-    --tenne-tawny-dark: #ffa500;
+   firstColor: red;
+   firstColor-dark: #ffa500;
 }
 body{
     font-weight: 300;
@@ -61,22 +61,22 @@ body{
     font-size: 1.1rem;
     font-family: inherit;
     outline: 0;
-    border: 1px solid var(--tenne-tawny);
-    color: var(--tenne-tawny);
+    border: 1px solid var(firstColor);
+    color: var(firstColor);
     /* border-top-left-radius: 2rem;
     border-top-right-radius: 2rem; */
     
 }
 .search-control ::placeholder{
-    color: var(--tenne-tawny);
+    color: var(firstColor);
 }
 
 .search-btn {
     width: 55px;
     height: 55px;
     font-size: 1.8rem;
-    background: var(--tenne-tawny);
-    color: #fff;
+    background: var(firstColor);
+    color: red;
     border: none;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -88,7 +88,7 @@ body{
 
 }
 .search-btn:hover{
-    background: var(--tenne-tawny-dark);
+    background: var(firstColor-dark);
 }
 .meal-result{
     margin-top: 4rem;
@@ -118,8 +118,8 @@ body{
 }
 .recipe-btn{
     text-decoration: none;
-    color: #fff;
-    background: var(--tenne-tawny);
+    color: black;
+    background: red;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.75rem 0;
@@ -138,7 +138,7 @@ body{
     -o-transition: all 0.4s linear;
 }
 .recipe-btn:hover{
-    background: var(--tenne-tawny-dark);
+    background: var(firstColor-dark);
 }
 
 
@@ -152,8 +152,8 @@ body{
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    color: #fff;
-    background: var(--tenne-tawny);
+    color: red;
+    background: #ffa500;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -223,7 +223,7 @@ thisssss
 .recipe-category{
     background: #fff; 
     font-weight: 600;
-    color: var(--tenne-tawny);
+    color: var(firstColor);
     display: inline-block;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
@@ -235,7 +235,7 @@ thisssss
 /* .recipe-category{
     background: #fff;
     font-weight: 600;
-    color: var(--tenne-tawny);
+    color: var(firstColor);
     display: inline-block;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
@@ -277,7 +277,7 @@ thisssss
 /*  */
 .notFound{
     grid-template-columns: 1fr!important;
-    color: var(--tenne-tawny);
+    color: var(firstColor);
     font-size: 1.8rem;
     font-weight: 600;
     width: 100%;
